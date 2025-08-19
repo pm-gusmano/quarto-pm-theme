@@ -1,5 +1,7 @@
 ---
 title: "pm-theme"
+theme: pm.scss
+format: revealjs
 ---
 
 ## Quarto

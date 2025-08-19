@@ -1,8 +1,23 @@
 /*-- scss:defaults --*/
 
 // colors
-$midnight-indigo: #212842;
-$vanilla-creme: #F0E7D5;
-$burnt-orange: #D87C4A;
+$midnight: #212842;
+$vanilla: #F0E7D5;
+$burnt: #D87C4A;
 $teal: #3A7D8C;
 $warm-taupe: #C5B8A5;
+
+// fonts
+@import url('https://fonts.googleapis.com/css2?family=Brawler:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+// set default colors
+$primary: $midnight;
+
+$body-bg: $vanilla;
+$body-color: $midnight;
+$link-color: $burnt;
+
+// set default fonts
+$presentation-heading-font: 'Brawler', sans-serif;
+$font-family-sans-serif: 'Inter', sans-serif;
