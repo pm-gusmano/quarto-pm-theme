@@ -21,3 +21,10 @@ $link-color: $burnt;
 // set default fonts
 $presentation-heading-font: 'Brawler', sans-serif;
 $font-family-sans-serif: 'Inter', sans-serif;
+
+/*-- scss:rules --*/
+
+// Underline Links in Reveal Presentations
+.reveal .slide a {
+    text-decoration: underline;
+}

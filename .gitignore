@@ -2,3 +2,4 @@
 pm-theme_files/*
 pm-theme.html
 .quarto/*
+/.quarto/
